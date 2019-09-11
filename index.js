@@ -11,8 +11,10 @@ let defaultString = "Code School is a hands-on class designed to train individua
 // }
 otherVar = 0;
 counter = 0;
+// !! : PROVIDE COMMENTS SO I CAN ACTUALLY GRADE
 log.onkeydown = function(texField){
     blankLabel.innerText = (texField.target.value);
+    // !! : defaultString should build, not only show one character 
     blankLabel.innerText = defaultString[counter++];
     otherVar += defaultString[counter++];
     console.log(otherVar);
